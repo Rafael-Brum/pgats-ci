@@ -1,4 +1,5 @@
 # CI de Nível 04 - PR Agent para análise automática de Pull Requests
+# Este workflow é acionado por eventos relacionados a Pull Requests e comentários, utilizando o PR Agent para análise automática. Ele pode ser configurado para fornecer feedback sobre o código, sugerir melhorias ou identificar potenciais problemas antes da revisão manual.
 
 name: "PR Agent Analysis"
 
