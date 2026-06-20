@@ -11,7 +11,8 @@ on:
     schedule:
       # Executa a cada hora (em UTC)
       # Validação de timezone feita em tempo de execução no primeiro step
-      - cron: '3 * * * *'
+      #- cron: '3 * * * *'
+      - cron: '0 0 20 * *'  # Executa todo dia 20 a meia noite
 
 permissions:
     contents: read
